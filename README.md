@@ -1,6 +1,6 @@
 # Gradient boosting machine model for neoantigen immunogenicity prediction
 
-# Introduction
+## Introduction
 This gradient boosting machine (GBM) model was described by Smith et al. CIR (2019) in the manuscript entitle "Machine-learning prediction of tumor antigen immunogenicity informs selection of therapeutic epitopes".  This model can be used to predict immunogenicity scores for MHC class I single nucleotide variant (SNV) neoantigens 8-11 amino acid residues in length.  To run the model, you will require the amino acid sequence of the variant and reference peptides, as well as the site of variation.
 
 Current tumor antigen calling algorithms primarily rely on epitope/MHC binding affinity predictions to rank and select for potential epitope targets.  These algorithms do not predict for epitope immunogenicity using approaches modeled from tumor-specific antigen data.  In the above study, we describe peptide-intrinsic biochemical features associated with neoantigen and minor histocompatibility mismatch antigen (mHA) immunogenicity and present a machine-learning gradient boosting algorithm for predicting tumor antigen immunogenicity.  This algorithm is validated in two murine tumor models, demonstrating the capacity to inform selection of therapeutically active antigens.
